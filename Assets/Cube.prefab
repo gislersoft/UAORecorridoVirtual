@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5976655795436822209}
   - component: {fileID: 7468199725659819256}
   - component: {fileID: 3209726934994947799}
+  - component: {fileID: 6819229452463744351}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -115,3 +116,20 @@ CapsuleCollider:
   m_Height: 3
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6819229452463744351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5976655795436822215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 134cafff26e12264dbd57a4bc164419b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 30
+  jumpSpeed: 3
+  jumpMultiplier: 1
+  gravity: 9.8
+  rotationSpeed: 180
