@@ -11,8 +11,8 @@ For Windows users:
 2. Create a public github account
 3. Go to https://github.com/gislersoft/UAORecorridoVirtual and fork the repository.
 4. Create a Unity Project in any local folder. Example: C:\Users\gislersoft\Documents\Unity\UAO\VideoJuegos3D\UAORecorridoVirtual
-5. Switch to Visible Meta Files in **Edit** → **Project Settings** → **Editor** → **Version Control Mode** → Visible Meta Files
-6. Switch to Force Text in **Edit** → **Project Settings** → **Editor** → **Asset Serialization Mode** → Force Text
+5. Make sure that this option is turned on **Edit** → **Project Settings** → **Editor** → **Force Serialize References On One Line**
+6. Switch to Force Text in **Edit** → **Project Settings** → **Editor** → **Asset Serialization** → Force Text
 7. Open git bash (From step 1).
 8. ``` cd "C:\Users\gislersoft\Documents\Unity\UAO\VideoJuegos3D\UAORecorridoVirtual" ```
 9. ``` git init ```
