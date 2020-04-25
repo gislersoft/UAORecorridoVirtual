@@ -1,6 +1,9 @@
 # UAORecorridoVirtual
 Este es un recorrido virtual de pruebas por la UAO hecho en unity para la materia de fundamentos de realidad virtual
 
+### About Free Assets
+All assets downloaded from the asset store in this repositort has the FREE license for personal use, please refer to asset store to grab your copy this is a public an academic repository not intended for comercial use.
+
 ### Setup
 
 For Windows users:
