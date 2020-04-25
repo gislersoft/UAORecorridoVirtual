@@ -23,3 +23,6 @@ For Windows users:
 11. ``` git remote add fork https://github.com/<YOUR GIT HUB USER HERE>/UAORecorridoVirtual.git ```
 12. ``` git fetch --all ``` Note: This will take a while until all objects are downloaded.
 13. ``` git reset --hard origin/master ``` This will discard all your local changes and just overwrite everything with a copy from the remote branch
+
+### Integrantes
+Juan Camilo Bolaños Aldanas
