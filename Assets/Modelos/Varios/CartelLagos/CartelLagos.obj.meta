@@ -1,26 +1,8 @@
 fileFormatVersion: 2
-guid: 22d72b8b0887a0c408c860bf3d3aac0d
+guid: 5d78f6a948d5e4c4394c4cd8fdc18196
 ModelImporter:
   serializedVersion: 20100
-  internalIDToNameTable:
-  - first:
-      74: 1989289236423521904
-    second: Default Take
-  - first:
-      74: -8687745409084639803
-    second: quieto
-  - first:
-      74: -3925427449959772061
-    second: running
-  - first:
-      74: 416870459326255563
-    second: tpose
-  - first:
-      74: -3419257869308726280
-    second: walk
-  - first:
-      74: -623603649343465320
-    second: Scene
+  internalIDToNameTable: []
   externalObjects: {}
   materials:
     materialImportMode: 1
