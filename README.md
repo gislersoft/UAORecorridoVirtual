@@ -13,7 +13,7 @@ All assets downloaded from the asset store in this repositort has the FREE licen
 4. Ir a su github 
 5. Hacer fork del repositorio a su cuenta
 6. Copiar la URL de su repositorio (La pueden tomar del boton clone (El verde))
-6. Ir a la consola de git
+6. Ir a la consola de git y ejecutar ```cd "UAORecorridoVirtual"```
 7. ```git remote add fork <URL>```
 8. Ir a Unity Hub
 9. Darle click a Add y buscar la carpeta donde quedo clonado su repo
