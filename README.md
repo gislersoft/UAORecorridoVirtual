@@ -52,5 +52,31 @@ For Windows users:
 12. ``` git fetch --all ``` Note: This will take a while until all objects are downloaded.
 13. ``` git reset --hard origin/master ``` This will discard all your local changes and just overwrite everything with a copy from the remote branch
 
-### Integrantes
-Juan Camilo Bolaños Aldanas
+### Comandos de git
+
+- ```git status``` // Verificar los cambios
+- ```git remote -v``` // Verificar los apuntadores a los repositorios
+- ```git add <file>``` // Agregar el archivo a el cambio
+- ```git add .``` // Agregar todos los archivos (Usar con cautela)
+- ```git rm <file>``` // Marcar como borrado en el cambio
+- ```rm <file>``` //Borrar el archivo del sistema de archivos
+- ```git commit -m "bla bla bla"``` // Crear el commit con un mensaje
+- ```git push <apuntador> <branch>``` // Enviar los cambios al repositorio y branch apuntados
+- ```git pull <apuntador> <branch>``` // Traer los cambios del repositorio y branch apuntados
+- ```git remote add <apuntador> <url del repo>``` //Crea un nuevo apuntador para el repositorio dado
+- ```git remote remove <apuntador>``` // Borrar el apuntador del repositorio
+- ```git checkout -- <archivo>``` // Restaura un archivo a la versión antes de se modificado locamente
+
+### Mejores Prácticas
+- NO USAR ESPACIO EN LOS NOMBRES NADIE QUIERE TENER QUE AGREGAR DOBLE COMILLA EN gitbash
+- No enviar PR super masivos (Muchos archivos en un solo PR) usar commits atomicos.
+- Usar CamelCase para el nombramiento de variables, metodos, Clases, Texturas, Modelos y Carpetas. Ejemplo: ```MiCarpeta``` , ```miVariable```, ```miMetodo```, ```MiClase```, ```miTextura.png```, ```MiTextura.png```, ```MiModelo```, ```miModelo```.
+- Leer los readme de cada carpeta
+- Colocar los modelos en una carpeta agrupada.
+- Agrupar de manera coherente archivos relacionados entre si cómo por ejemplo archivos relacionados a un mismo modelo.
+- Evitar tocar las escenas si no necesito realmente tocarlas, en su lugar utilizar escenas de pruebas y colocarlas en la carpeta de escenas de prueba.
+- Utilizar o español o inglés en los comentarios o el código, pero evitar mezclarlos de manera que sea dificil leer el código. Ejemplo de evitar esto: ```int ammo = 20; int municionRate = 10```.
+- Los modelos deben estar terminados y haber pasado el proceso de calidad.
+- Cumplir con el principio de la menor sorpresa y que las clases y metodos tengan sentido. (Clean Code)
+
+
